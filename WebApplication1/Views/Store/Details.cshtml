@@ -1,0 +1,18 @@
+﻿@model IEnumerable<WebApplication1.Models.Album>
+@{
+    ViewBag.Title = ViewBag.Genre;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Genre Albums</h2>
+
+@foreach(var albums in Model)
+{
+
+<article>
+    <h3>@albums.Title</h3>
+    <img src="@albums.AlbumArtUrl" alt="@albums.Title" />
+    <p>@albums.Price</p>
+</article>
+
+}

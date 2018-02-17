@@ -1,0 +1,4 @@
+host: asppractice1.database.windows.net
+database name: pratice1asp
+username: asppractice1
+Pass: Varun_Don212!
